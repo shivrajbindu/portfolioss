@@ -1,0 +1,200 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi C | Portfolio</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    :root {
+        --primary-accent: #10b981;
+        --secondary-accent: #34d399;
+        --bg-gradient: linear-gradient(135deg, #0f172a 0%, #064e3b 100%);
+        --glass: rgba(255, 255, 255, 0.05);
+        --text-main: #f8fafc;
+    }
+
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background: var(--bg-gradient);
+        color: var(--text-main);
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        background: rgba(15,23,42,0.8);
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+    }
+
+    header {
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    header img {
+        width: 140px;
+        border-radius: 50%;
+        border: 4px solid var(--primary-accent);
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    section {
+        padding: 40px;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .card {
+        background: var(--glass);
+        padding: 20px;
+        border-radius: 15px;
+        margin: 15px 0;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .view {
+        border: 2px solid white;
+        background: transparent;
+        color: white;
+    }
+
+    .download {
+        background: var(--primary-accent);
+        color: white;
+    }
+
+    .social-icons a {
+        color: white;
+        margin: 10px;
+        font-size: 20px;
+    }
+
+    #typing {
+        color: var(--primary-accent);
+        font-weight: bold;
+    }
+</style>
+
+</head><body><nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+</nav><header>
+    <img src="myphoto.jpg.jpeg">
+    <h1>Lakshmi C</h1>
+    <p id="typing"></p><button class="btn view" onclick="window.open('resume.pdf')">View Resume</button>
+<a href="resume.pdf" download class="btn download">Download CV</a>
+
+<div class="social-icons">
+    <a href="#"><i class="Lakshmi-lakshmi311-github"></i></a>
+    <a href="#"><i class="lakshmi lakshmic-linkedin"></i></a>
+</div>
+
+</header><section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>A passionate BCA student with a strong interest in programming, web development, and emerging technologies. Enjoys building projects, exploring new tools, and continuously improving technical skills. Aims to become a professional software developer and contribute to innovative solutions.</p>
+    </div>
+</section><section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>BCA</h3>
+        <p>Seshadripuram college tumkur</p>
+        <small>2026</small>
+    </div>
+    <div class="card">
+        <h3>Pre-University Course (PUC)</h3>
+        <p>govt college tumkur</p>
+        <small>2023</small>
+    </div>
+
+    <div class="card">
+        <h3>High School (SSLC)</h3>
+        <p>girls high school barguru</p>
+        <small>2021</small>
+    </div>
+</section><section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+        <p>Python, HTML, CSS, JavaScript</p>
+    </div>
+</section><section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>File Encryption</h3>
+            <p>A simple project developed using Python that secures files by converting readable data into an unreadable format (encryption) and then back to its original form (decryption) using a secret key. This ensures that only authorized users can access the file content. The project demonstrates basic concepts of data security and cryptography.</p>
+        </div>
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website created using HTML, CSS, and basic web technologies to showcase skills, projects, and contact details. It includes sections like About Me, Skills, Projects, and Contact. The portfolio is designed to present information in a clean and professional way and can be hosted online or run locally.</p>
+        </div>
+    </div>
+</section><!-- ✅ CERTIFICATES SECTION --><section id="certificates">
+    <h2>Certificates</h2>
+    <div class="grid">    <div class="card">
+        <img src="database.pdf" style="width:100%; border-radius:10px;">
+        <h4>Database and SQL Certificate</h4>
+        <button class="btn view" onclick="window.open('database.pdf')">View</button>
+    </div>
+
+    <div class="card">
+        <img src="dm.jpg.jpeg" style="width:100%; border-radius:10px;">
+        <h4>Digital Marketing Certificate</h4>
+        <button class="btn view" onclick="window.open('dm.jpg.jpeg')">View</button>
+    </div>
+
+    <div class="card">
+        <img src="ibm.pdf" style="width:100%; border-radius:10px;">
+        <h4>Artificial Intelligence Certificate</h4>
+        <button class="btn view" onclick="window.open('ibm.pdf')">View</button>
+    </div>
+
+</div>
+
+</section><section id="contact">
+    <h2>Contact :9019468570</h2>
+    <div class="card">
+        <p>Email: lakshmiclakshmi609@gmail.com</p>
+    </div>
+</section><script>
+    const text = "BCA Student";
+    let i = 0;
+    function type() {
+        if (i < text.length) {
+            document.getElementById("typing").innerHTML += text.charAt(i);
+            i++;
+            setTimeout(type, 80);
+        }
+    }
+    window.onload = type;
+</script></body>
+</html>
